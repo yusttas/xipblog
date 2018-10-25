@@ -8,6 +8,7 @@ class xipblogSingleModuleFrontController extends xipblogMainModuleFrontControlle
     public function init()
 	{
         parent::init();
+        $this->context->controller->php_self='xipblog_single';
         $this->rewrite = Tools::getValue('rewrite');
         $id_identity = Tools::getValue('id');
         if(!isset($id_identity) || empty($id_identity)){
