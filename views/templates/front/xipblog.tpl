@@ -2,10 +2,12 @@
 	<div class="home_blog_post">
 		<div class="page_title_area">
 			{if isset($xipbdp_title)}
+			<a href="{$link_archive}">
 				<h3 class="page-heading">
 					<em>{$xipbdp_title}</em>
 					<span class="heading_carousel_arrow"></span>
 				</h3>
+				</a>
 			{/if}
 			{if isset($xipbdp_subtext)}
 				<p class="page_subtitle">{$xipbdp_subtext}</p>

@@ -1146,6 +1146,7 @@ class xipblog extends Module implements WidgetInterface
         $xipblogposts = xippostsclass::GetCategoryPosts(0, 1, $xipbdp_postcount, 'post', 'DESC');
         return array(
             'xipbdp_title' => $xipbdp_title,
+            'link_archive' => xipblog::XipBlogLink(),
             'xipbdp_subtext' => $xipbdp_subtext,
             'xipbdp_postcount' => $xipbdp_postcount,
             'xipbdp_designlayout' => $xipbdp_designlayout,
