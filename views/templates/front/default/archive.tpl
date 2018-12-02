@@ -98,7 +98,7 @@
 	</div>
 	{/if}
 	</section>
-{/block}
+
 {include file="module:xipblog/views/templates/front/default/pagination.tpl"}
 {/block}
 {block name="left_column"}
