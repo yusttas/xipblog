@@ -58,11 +58,6 @@
 						<div class="blog_post_content_bottom">
 							<h3 class="post_title"><a href="{$xipblgpst.link}">{$xipblgpst.post_title}</a></h3>
 							<div class="post_meta clearfix">
-								<p class="meta_author">
-									{* <i class="icon-user"></i> *}
-									{l s='Posted by' mod='xipblog'}
-									<span>{$xipblgpst.post_author_arr.firstname} {$xipblgpst.post_author_arr.lastname}</span>
-								</p>
 								<p class="meta_date">
 									{* <i class="icon-calendar"></i> *}
 									{$xipblgpst.post_date|date_format:"%b %d, %Y"}
