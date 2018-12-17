@@ -77,9 +77,6 @@
 									{$xpblgpst.post_content|truncate:400:'...'|escape:'html':'UTF-8'}
 								{/if}
 							</div>
-							<div class="content_more">
-								<a class="read_more" href="{$xpblgpst.link}">{l s='Continue' mod='xipblog'}</a>
-							</div>
 						</div>
 
 					</div>
