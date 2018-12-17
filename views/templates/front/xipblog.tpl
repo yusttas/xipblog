@@ -20,6 +20,7 @@
 				<article class="blog_post col-xs-12 col-sm-4">
 					<div class="blog_post_content">
 						<div class="blog_post_content_top">
+						<a href="{$xipblgpst.link}">
 							<div class="post_thumbnail">
 								{if $xipblgpst.post_format == 'video'}
 									{assign var="postvideos" value=','|explode:$xipblgpst.video}
@@ -52,6 +53,7 @@
 									</div>
 								{/if}
 							</div>
+							</a>
 						</div>
 						<div class="blog_post_content_bottom">
 							<h3 class="post_title"><a href="{$xipblgpst.link}">{$xipblgpst.post_title}</a></h3>
