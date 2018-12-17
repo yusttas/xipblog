@@ -84,9 +84,6 @@
 									<p>{$xipblgpst.post_content|truncate:100:' ...'|escape:'html':'UTF-8'|strip_tags}</p>
 								{/if}
 							</div>
-							<div class="content_more">
-								<a class="read_more" href="{$xipblgpst.link}">{l s='Continue' mod='xipblog'}</a>
-							</div>
 						</div>
 					</div>
 				</article>
