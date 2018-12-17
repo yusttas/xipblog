@@ -69,10 +69,7 @@
   display: none;
 }
 
-.slick-slide:focus{
-  outline: none;
-}
-
+.slick-slide:focus,
 .slick-slide a {
   outline: none;
 }
