@@ -44,13 +44,6 @@
 									{/if}
 								{else}
 									<img class="xipblog_img img-responsive" src="{$xipblgpst.post_img_home_default}" alt="{$xipblgpst.post_title}">
-									<div class="blog_mask">
-										<div class="blog_mask_content">
-											<a class="thumbnail_lightbox" href="{$xipblgpst.post_img_large}">
-												<i class="icon_plus"></i>
-											</a>
-										</div>
-									</div>
 								{/if}
 							</div>
 							</a>

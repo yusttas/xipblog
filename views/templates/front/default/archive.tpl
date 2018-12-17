@@ -40,13 +40,6 @@
 									{include file="module:xipblog/views/templates/front/default/post-gallery.tpl" gallery_lists=$xpblgpst.gallery_lists imagesize="large" class=$class}
 								{else}
 									<img class="img-responsive" src="{$xpblgpst.post_img_large}" alt="{$xpblgpst.post_title}">
-									<div class="blog_mask">
-										<div class="blog_mask_content">
-											<a class="thumbnail_lightbox" href="{$xpblgpst.post_img_large}">
-												<i class="icon_plus"></i>
-											</a>										
-										</div>
-									</div>
 								{/if}
 							{/block}
 							</div>
