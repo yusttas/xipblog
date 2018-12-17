@@ -424,10 +424,6 @@ Blog module
   padding: .5rem 1rem;
 }
 
-.post_content {
-  padding-top: 30px;
-}
-
 .meta_author,
 .meta_category,
 .meta_comment,
