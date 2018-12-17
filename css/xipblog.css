@@ -69,6 +69,14 @@
   display: none;
 }
 
+.slick-slide:focus{
+  outline: none;
+}
+
+.slick-slide a {
+  outline: none;
+}
+
 [dir="rtl"] .slick-slide {
   float: right;
 }
