@@ -43,6 +43,10 @@
 						<div class="blog_post_content_bottom">
 							<h3 class="post_title">{$xipblogpost.post_title}</h3>
 							<div class="post_meta clearfix">
+							         <div class="post_meta_date">
+                                        {* <i class="icon-calendar"></i> *}
+                                        {$xipblogpost.post_date|date_format:"%b %dTH, %Y"}
+                                    </div>
 								{if $xipblogpost.category_default_arr.name}
 								<div class="meta_category">
 									{* <i class="icon-tag"></i> *}
