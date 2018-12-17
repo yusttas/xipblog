@@ -12,6 +12,7 @@
 				<article id="blog_post" class="blog_post blog_post_{$xpblgpst.post_format} clearfix">
 					<div class="blog_post_content">
 						<div class="blog_post_content_top">
+						<a href="{$xpblgpst.link}">
 							<div class="post_thumbnail">
 							{block name="xipblog_post_thumbnail"}
 								{if $xpblgpst.post_format == 'video'}
@@ -49,6 +50,7 @@
 								{/if}
 							{/block}
 							</div>
+								</a>	
 						</div>
 
 						<div class="blog_post_content_bottom">
