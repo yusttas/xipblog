@@ -129,10 +129,12 @@ class xipblogSingleModuleFrontController extends xipblogMainModuleFrontControlle
             'url' => xipblog::XipBlogLink(),
         );
 
-        $breadcrumb['links'][] = array(
-            'title' => (isset($this->blogpost['category_default_arr']['title']) && !empty($this->blogpost['category_default_arr']['title'])) ? $this->blogpost['category_default_arr']['title'] : $this->blogpost['category_default_arr']['name'],
-            'url' => $this->blogpost['category_default_arr']['link'],
-        );
+        if (!empty($this->blogpost['category_default_arr']['title']) || !empty($this->blogpost['category_default_arr']['name'])) {
+            $breadcrumb['links'][] = array(
+                'title' => (!empty($this->blogpost['category_default_arr']['title'])) ? $this->blogpost['category_default_arr']['title'] : $this->blogpost['category_default_arr']['name'],
+                'url' => $this->blogpost['category_default_arr']['link'],
+            );
+        }
 
         $breadcrumb['links'][] = array(
             'title' => $this->blogpost['post_title'],
