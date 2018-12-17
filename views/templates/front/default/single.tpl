@@ -43,10 +43,7 @@
 						<div class="blog_post_content_bottom">
 							<h3 class="post_title">{$xipblogpost.post_title}</h3>
 							<div class="post_meta clearfix">
-								<div class="meta_author">
-									{* <i class="icon-user"></i> *}
-									<span>{l s='By' mod='xipblog'} {$xipblogpost.post_author_arr.firstname} {$xipblogpost.post_author_arr.lastname}</span>
-								</div>
+							
 								<div class="meta_category">
 									{* <i class="icon-tag"></i> *}
 									<span>{l s='In' mod='xipblog'}</span>
