@@ -50,13 +50,6 @@
 							<h3 class="post_title"><a href="{$xpblgpst.link}">{$xpblgpst.post_title}</a></h3>
 							
 							<div class="post_meta clearfix">
-								
-									
-								
-								<div class="meta_author">
-									{* <i class="icon-user"></i> *}
-									<span>{l s='By' mod='xipblog'} {$xpblgpst.post_author_arr.firstname} {$xpblgpst.post_author_arr.lastname}</span>
-								</div>
 
 								<div class="post_meta_date">
 									{* <i class="icon-calendar"></i> *}
@@ -70,7 +63,7 @@
 										<a href="{$xpblgpst.category_default_arr.link}">{$xpblgpst.category_default_arr.name}</a>
 								</div>
 								{/if}
-								
+
 								<div class="meta_comment">
 									{* <i class="icon-eye"></i> *}
 									<span>{l s='Views' mod='xipblog'} ({$xpblgpst.comment_count})</span>
