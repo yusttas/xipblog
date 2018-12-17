@@ -63,11 +63,14 @@
 									{$xpblgpst.post_date|date_format:"%b %dTH, %Y"}
 								</div>
 
+								{if $xpblgpst.category_default_arr.name}
 								<div class="meta_category">
 									{* <i class="icon-tag"></i> *}
 										<span>{l s='In' mod='xipblog'}</span>
 										<a href="{$xpblgpst.category_default_arr.link}">{$xpblgpst.category_default_arr.name}</a>
 								</div>
+								{/if}
+								
 								<div class="meta_comment">
 									{* <i class="icon-eye"></i> *}
 									<span>{l s='Views' mod='xipblog'} ({$xpblgpst.comment_count})</span>
