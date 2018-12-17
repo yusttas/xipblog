@@ -79,7 +79,7 @@
 								{if isset($xipblgpst.post_excerpt) && !empty($xipblgpst.post_excerpt)}
 									<p>{$xipblgpst.post_excerpt|truncate:100:' ...'|escape:'html':'UTF-8'}</p>
 								{else}
-									<p>{$xipblgpst.post_content|truncate:100:' ...'|escape:'html':'UTF-8'}</p>
+									<p>{$xipblgpst.post_content|truncate:100:' ...'|escape:'html':'UTF-8'|strip_tags}</p>
 								{/if}
 							</div>
 							<div class="content_more">
