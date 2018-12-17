@@ -43,12 +43,13 @@
 						<div class="blog_post_content_bottom">
 							<h3 class="post_title">{$xipblogpost.post_title}</h3>
 							<div class="post_meta clearfix">
-							
+								{if $xipblogpost.category_default_arr.name}
 								<div class="meta_category">
 									{* <i class="icon-tag"></i> *}
 									<span>{l s='In' mod='xipblog'}</span>
 									<span>{$xipblogpost.category_default_arr.name}</span>
 								</div>
+								{/if}
 								<div class="meta_comment">
 									{* <i class="icon-eye"></i> *}
 									<span>{l s='Views' mod='xipblog'} ({$xipblogpost.comment_count})</span>
