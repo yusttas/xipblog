@@ -70,8 +70,10 @@
 								
 								<p class="meta_category">
 									{* <i class="icon-tag"></i> *}
+									{if $xipblgpst.category_default_arr.name}
 									{l s='IN' mod='xipblog'}
 									<a href="{$xipblgpst.category_default_arr.link}">{$xipblgpst.category_default_arr.name}</a>
+									{/if}
 								</p>
 							</div>
 							
