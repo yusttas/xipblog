@@ -576,6 +576,10 @@ Blog module
   clear: left;
 }
 
+.bottom-pagination-content {
+  float: left;
+}
+
 .comments_area {
   margin-bottom: 30px;
 }
