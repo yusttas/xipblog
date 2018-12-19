@@ -564,6 +564,18 @@ Blog module
   width: 33.33%;
 }
 
+@media(max-width:768px) {
+  .kr_blog_post_area .kr_blog_post_inner.blog_style_column.column_3 .blog_post {
+    width: 50%;
+  }
+}
+
+@media(max-width:576px) {
+  .kr_blog_post_area .kr_blog_post_inner.blog_style_column.column_3 .blog_post {
+    width: 100%;
+  }
+}
+
 .kr_blog_post_area .kr_blog_post_inner.blog_style_column.column_3 .blog_post:nth-of-type(3n+1) {
   clear: left;
 }
