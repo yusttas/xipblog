@@ -590,6 +590,7 @@ Blog module
 
 .bottom-pagination-content {
   float: left;
+  width:100%;
 }
 
 .comments_area {
